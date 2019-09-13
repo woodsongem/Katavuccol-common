@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Katavuccol.Common</RootNamespace>
+    <PackageId>Katavuccol.Common</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Katavuccol</Authors>
+    <Company>Katavuccol</Company>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+</Project>
