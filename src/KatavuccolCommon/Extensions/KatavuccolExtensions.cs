@@ -29,8 +29,8 @@ namespace KatavuccolCommon.Extensions
             if (value.IsEmpty())
                 return 0;
             if (long.TryParse(value, out long result))
-                return 0;
-            return result;
+                return result;
+            return 0;
         }
     }
 }
