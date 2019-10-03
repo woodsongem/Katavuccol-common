@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -31,6 +32,11 @@ namespace KatavuccolCommon.Extensions
             if (long.TryParse(value, out long result))
                 return result;
             return 0;
+        }
+
+        public static bool IsEqual(this string value,string another)
+        {
+           return string.Equals(value,another,StringComparison.InvariantCultureIgnoreCase);
         }
     }
 }

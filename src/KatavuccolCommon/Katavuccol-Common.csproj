@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>Katavuccol.Common</RootNamespace>
     <PackageId>Katavuccol.Common</PackageId>
-    <Version>2.0.1</Version>
+    <Version>2.0.2</Version>
     <Authors>Katavuccol</Authors>
     <Company>Katavuccol</Company>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
